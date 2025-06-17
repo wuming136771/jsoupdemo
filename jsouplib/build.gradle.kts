@@ -42,4 +42,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.jsoup)
+    /**util*/
+    implementation (libs.utilcodex)
 }
