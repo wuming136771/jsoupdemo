@@ -9,8 +9,12 @@ espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
 utilcodex = "1.31.1"
+androidxNavigationNavigationUiKtx5 = "2.6.0"
+androidxNavigationNavigationFragmentKtx5 = "2.6.0"
 
 [libraries]
+androidx-navigation-navigation-fragment-ktx7 = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "androidxNavigationNavigationFragmentKtx5" }
+androidx-navigation-navigation-ui-ktx7 = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "androidxNavigationNavigationUiKtx5" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 jsoup = { module = "org.jsoup:jsoup", version.ref = "jsoup" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }

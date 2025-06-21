@@ -42,6 +42,9 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(libs.jsoup)
+    /**Navigation*/
+    implementation (libs.androidx.navigation.navigation.fragment.ktx7)
+    implementation (libs.androidx.navigation.navigation.ui.ktx7)
     /**util*/
     implementation (libs.utilcodex)
 }
